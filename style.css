@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600,700&subset=latin,cyrillic);
+
+body{
+    background: #f9f9f9;
+    width: 100%;
+}
+/* Задаем основной блок */
+.main{
+    width: 1060px;
+/*    height: 850px;*/
+    background: #ffffff;
+    margin: auto;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    padding: 51px 47px 58px 47px;
+}
+/* Логотип */
+.logo{
+    display: block;
+   }
+
+/* Верхняя панель */
+.navi{
+    text-align: left;
+    background-image: url(navi_ground.png);
+    margin-top: 41px;
+    margin-bottom: 40px;
+    height: 40px;
+    font-size: 0;
+       
+}
+/* Выравнивание списка горизонтально */
+.navi ul li{
+    display: inline-block;
+    height: 40px;
+}
+/* Стилизация текста в верхней панели навигации */
+.navi ul li a{
+   display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+    padding-right: 85px;
+    text-shadow: 2px 2px #2a2a2a;
+    line-height: 40px;
+}
+
+/* Эффекты верхней панели */
+.navi ul li a:hover{
+    background-image: url(navi_hover.png);
+    border-left: 1px solid#838383;
+    border-right: 1px solid#838383;
+    height: 40px;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+/* Задаем блок управления с лева*/
+.left_panel {
+   float: left;
+    height: 246px;
+    width: 240px;
+    margin-right: 48px;
+    border: 1px solid#c8c8c8
+   }
+/* Высоту ячеек левого блока и бордеры */
+.left_panel ul li{
+    height: 40px;
+    border-bottom: 1px solid#c8c8c8;
+    line-height: 40px;
+}
+.left_panel ul li:last-child{
+    border-bottom: none;
+}
+/* Оформляем текст левой панели */
+
+.left_panel ul li a{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #656363;
+    padding-left: 24px;
+}
+/* Эффекты левой панели */
+.left_panel ul li a:hover{
+    background-color: #f9f9f9;
+    padding-left: 35px;
+    font-weight: bold;
+    transition: 1s;
+   }
+/* Блок и фото с текстом */
+.foto {
+   
+     float: right;
+     width: 760px;
+    margin-bottom: 62px;
+}
+/* Выравниваем картинку */
+.foto img {
+    width: 500px;
+    display: inline-block;
+  padding: 46px 128px 46px 128px;
+    border: 1px solid#c8c8c8;
+    margin-bottom: 17px;
+}
+/* Выравниваем текст */
+.foto p {
+    padding: 23px 23px 0 23px;
+    font-size: 13px;
+    line-height: 21px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Задаем блок футера */
+.footer {
+    clear: both;
+    height: 40px;
+    background-color: #e1e1e1;
+    }
+/* Выравниваем ссылки горизонтально */
+.footer ul li{
+    float: left;
+    list-style: none
+   }
+/* Стили к тексту футера */
+.footer ul li a{
+     line-height: 40px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #2c2c2c;
+    margin: 0 85px 0 25px;
+}
+/* Эффекты футера и выравнивание последнего эл-та */
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+.footer ul li:last-child{
+    float: right;
+    }
+
+.rights p{
+    line-height: 40px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #2c2c2c;
+    margin-right: 26px;
+}
